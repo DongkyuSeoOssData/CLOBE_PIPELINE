@@ -80,12 +80,16 @@ async def run_worker():
     markets_info = config.get("markets", {})
     targets = [t for t in config.get("targets", []) if t.get("enabled")]
     
+    # [수정] 설정 파일에서 headless 옵션 로드 (기본값 True)
+    headless_setting = config.get("settings", {}).get("headless", True)
+    
     if not targets:
         print("수집 대상을 찾을 수 없습니다.")
         return
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        # [수정] 동적으로 가시성 결정
+        browser = await p.chromium.launch(headless=headless_setting)
         # 매 세션마다 깨끗한 환경을 위해 context 분리
         context = await browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"

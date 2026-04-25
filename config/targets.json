@@ -1,4 +1,8 @@
 {
+  "settings": {
+    "headless": false,
+    "description": "true: 백그라운드 실행, false: 브라우저 화면 표시"
+  },
   "markets": {
     "US": {
       "base_url": "https://finance.yahoo.com/quote/",

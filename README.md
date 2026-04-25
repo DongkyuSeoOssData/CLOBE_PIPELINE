@@ -10,6 +10,8 @@
 - **Database Layer (`database/`)**: SQLModel을 활용한 견고한 ORM 구성. 데이터 무결성 검증과 비즈니스 로직 격리.
 - **API Layer (`middleware.py`)**: FastAPI 기반 데이터 서빙 및 실시간 관제 UI (₩/$ 통화 동적 포맷팅 적용).
 
+## 🚀 파이프라인 실행 데모
+https://github.com/user-attachments/assets/584f181f-e8f7-4b16-a574-966b18088ed9
 ---
 
 ## 💡 Engineering & Troubleshooting (핵심 문제 해결)
