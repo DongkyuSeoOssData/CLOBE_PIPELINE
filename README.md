@@ -11,7 +11,8 @@
 - **API Layer (`middleware.py`)**: FastAPI 기반 데이터 서빙 및 실시간 관제 UI (₩/$ 통화 동적 포맷팅 적용).
 
 ## 🚀 파이프라인 실행 데모
-https://github.com/user-attachments/assets/584f181f-e8f7-4b16-a574-966b18088ed9
+
+<video src="https://github.com/user-attachments/assets/584f181f-e8f7-4b16-a574-966b18088ed9" controls width="100%"></video>
 ---
 
 ## 💡 Engineering & Troubleshooting (핵심 문제 해결)
