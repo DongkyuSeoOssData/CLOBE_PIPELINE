@@ -47,3 +47,4 @@ python -m playwright install chromium
 
 # 3. 파이프라인 가동 (수집 및 API 서버 동시 실행)
 python main.py
+ 
