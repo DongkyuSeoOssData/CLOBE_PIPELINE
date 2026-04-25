@@ -1,0 +1,38 @@
+# [Clobe E2E Pipeline] Git Ignore Settings
+
+# 1. Environment & Packages
+.venv/
+env/
+venv/
+ENV/
+bin/
+lib/
+include/
+Scripts/
+
+# 2. Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. Temporary & Legacy Files
+temp/
+cleanup_db.py
+test_scraping.py
+main_manual.py
+manual_dispatcher.py
+Rules/
+
+# 4. Database (데이터 보안 및 용량 관리)
+*.db
+*.sqlite3
+
+# 5. OS Specific
+.DS_Store
+Thumbs.db
+
+# 6. IDE Settings
+.vscode/
+.idea/
+.project
+.pydevproject

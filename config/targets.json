@@ -1,0 +1,35 @@
+{
+  "markets": {
+    "US": {
+      "base_url": "https://finance.yahoo.com/quote/",
+      "description": "Yahoo Finance for US Stocks"
+    },
+    "KR": {
+      "base_url": "https://finance.naver.com/item/main.naver?code=",
+      "description": "Naver Finance for KR Stocks"
+    }
+  },
+  "targets": [
+    { "symbol": "AAPL", "name": "Apple Inc.", "market": "US", "enabled": true },
+    { "symbol": "MSFT", "name": "Microsoft Corp.", "market": "US", "enabled": true },
+    { "symbol": "GOOGL", "name": "Alphabet Inc.", "market": "US", "enabled": true },
+    { "symbol": "AMZN", "name": "Amazon.com Inc.", "market": "US", "enabled": true },
+    { "symbol": "TSLA", "name": "Tesla Inc.", "market": "US", "enabled": true },
+    { "symbol": "NVDA", "name": "NVIDIA Corp.", "market": "US", "enabled": true },
+    { "symbol": "META", "name": "Meta Platforms Inc.", "market": "US", "enabled": true },
+    { "symbol": "UNH", "name": "UnitedHealth Group Inc.", "market": "US", "enabled": true },
+    { "symbol": "XOM", "name": "Exxon Mobil Corp.", "market": "US", "enabled": true },
+    { "symbol": "JNJ", "name": "Johnson & Johnson", "market": "US", "enabled": true },
+    
+    { "symbol": "005930", "name": "삼성전자", "market": "KR", "enabled": true },
+    { "symbol": "000660", "name": "SK하이닉스", "market": "KR", "enabled": true },
+    { "symbol": "035420", "name": "NAVER", "market": "KR", "enabled": true },
+    { "symbol": "035720", "name": "카카오", "market": "KR", "enabled": true },
+    { "symbol": "005380", "name": "현대차", "market": "KR", "enabled": true },
+    { "symbol": "207940", "name": "삼성바이오로직스", "market": "KR", "enabled": true },
+    { "symbol": "051910", "name": "LG화학", "market": "KR", "enabled": true },
+    { "symbol": "006400", "name": "삼성SDI", "market": "KR", "enabled": true },
+    { "symbol": "000270", "name": "기아", "market": "KR", "enabled": true },
+    { "symbol": "068270", "name": "셀트리온", "market": "KR", "enabled": true }
+  ]
+}
